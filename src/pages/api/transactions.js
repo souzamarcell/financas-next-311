@@ -1,5 +1,9 @@
-import { db } from "@/lib/db";
-import { transactions } from "@/lib/schema";
+// import { db } from "@/lib/db";
+// import { transactions } from "@/lib/schema";
+
+import { db } from "../../..//lib/db";
+import { transactions } from "../../..//lib/schema";
+
 
 export default async function handler(req, res) {
   if (req.method === "POST") {

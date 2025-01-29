@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vercel/postgres": "^0.10.0",
+    "axios": "^1.7.9",
     "drizzle-orm": "^0.39.1",
     "next": "15.1.6",
     "react": "^19.0.0",
